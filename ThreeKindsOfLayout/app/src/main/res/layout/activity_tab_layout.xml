@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tab_layout_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.smaug.threekindsoflayout.TabLayout">
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:padding="3dip"
+            android:text="Open........."
+            android:textColor="@color/darkgrey"/>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Ctrl+O"
+            android:textColor="@color/darkgrey"/>
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Save......."
+            android:textColor="@color/darkgrey"/>
+
+        <TextView
+
+            android:padding="3dip"
+            android:text="Ctrl+s"
+            android:textColor="@color/darkgrey"/>
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Save As"
+            android:textColor="@color/darkgrey"/>
+
+        <TextView
+
+            android:padding="3dip"
+            android:text="Ctrl+shift+s"
+            android:textColor="@color/darkgrey"/>
+
+
+    </TableRow>
+    /*间隔线*/
+
+    <View
+        android:layout_height="2dip"
+        android:background="@color/darkgrey"
+
+        android:textColor="@color/darkgrey"/>
+
+    <TableLayout>
+
+        <TextView
+            android:padding="3dp"
+            android:text="X Import"
+            android:textColor="@color/darkgrey"
+            />
+
+        <TextView
+            android:padding="3dp"
+            android:text="X EXport"
+            android:textColor="@color/darkgrey"
+            />
+
+
+    </TableLayout>
+
+    <View
+
+        android:layout_height="2dip"
+        android:background="@color/darkgrey"
+        android:textColor="@color/darkgrey"/>
+
+    <TextView
+        android:text="  Quit"
+        android:textColor="@color/darkgrey"
+        />
+
+</TableLayout>
