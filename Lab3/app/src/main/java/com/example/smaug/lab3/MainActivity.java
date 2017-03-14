@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         ItemAdapter itemAdapter = new ItemAdapter(MainActivity.this, R.layout.item, mItemList);
         ListView listView = (ListView) findViewById(R.id.list_view);
         listView.setAdapter(itemAdapter);
-        
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long
