@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.List;
 
 /**
@@ -16,7 +18,7 @@ import java.util.List;
 
 public class ItemAdapter extends ArrayAdapter<Item> {
     private int resourseId;
-private Context mContext;
+
     public ItemAdapter(Context mContext, int textViewResourseId, List<Item> objects) {
         super(mContext, textViewResourseId, objects);
         resourseId = textViewResourseId;
@@ -29,7 +31,8 @@ private Context mContext;
         View view = LayoutInflater.from(getContext()).inflate(resourseId, parent, false);
         ImageView imageView = (ImageView) view.findViewById(R.id.iv_item);
         TextView textView = (TextView) view.findViewById(R.id.tv_item);
-        imageView.setImageResource(item.getImageId());
+        //     imageView.setImageResource(item.getImageId());
+        Glide.with(parent.getContext()).load(item.getImageId()).override(150,150).into(imageView);
         textView.setText(item.getName());
         return view;
     }
