@@ -13,8 +13,9 @@
 ***
 ## 实验3
 ###### ListView
+`图片大小不一，解决方案：使用glide加载图片并重置大小`
 
-![image](https://github.com/que123567/Labs/blob/master/Lab3/app/src/main/res/drawable/test.png)
+![image](https://github.com/que123567/Labs/blob/master/Lab3/app/src/main/res/drawable/test1.png)
 ###### AlterDialog
 
 ![image](https://github.com/que123567/Labs/blob/master/Lab3/app/src/main/res/drawable/Test2.png)
