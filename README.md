@@ -20,7 +20,7 @@
 ![image](https://github.com/que123567/Labs/blob/master/Lab3/app/src/main/res/drawable/test1.png)
 ###### AlterDialog
 
-![image](https://github.com/que123567/Labs/blob/master/Lab3/app/src/main/res/drawable/test2.png)
+![image](https://github.com/que123567/Labs/blob/master/Lab3/app/src/main/res/drawable/Test2.png)
  
 ##### Menu
 ![image](https://github.com/que123567/Labs/blob/master/Lab3/app/src/main/res/drawable/test34.png)
