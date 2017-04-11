@@ -34,7 +34,7 @@ public class ActionModeTest extends AppCompatActivity implements ListView.OnItem
         public boolean onCreateActionMode(ActionMode mode, android.view.Menu menu) {
             mode.setTitle(cnt + " selected");
             getMenuInflater().inflate(R.menu.actionmode, menu);
-            return true;
+             return true;
         }
 
         @Override
