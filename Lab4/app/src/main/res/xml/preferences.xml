@@ -52,5 +52,6 @@
             android:layout="?android:attr/preferenceLayoutChild"
             android:summary="这是一个可见的子类"
             android:title="child checkBox preference"/>
+
     </PreferenceCategory>
 </PreferenceScreen>

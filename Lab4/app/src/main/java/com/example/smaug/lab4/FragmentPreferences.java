@@ -8,11 +8,13 @@ import android.preference.PreferenceFragment;
  * Created by smaug on 2017/3/28.
  */
 
-public class FragmentPreferences extends Activity{
+public class FragmentPreferences extends Activity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getFragmentManager().beginTransaction().replace(android.R.id.content, new PrefsFragement()).commit();
+        getFragmentManager().beginTransaction().replace(android.R.id.content, new PrefsFragement
+                ()).commit();
     }
 
 
